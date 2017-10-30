@@ -1,0 +1,15 @@
+E:\c#\Calc3\Calc3\bin\Debug\Calc3.exe.config
+E:\c#\Calc3\Calc3\bin\Debug\Calc3.exe
+E:\c#\Calc3\Calc3\bin\Debug\Calc3.pdb
+E:\c#\Calc3\Calc3\obj\Debug\Calc3.csprojResolveAssemblyReference.cache
+E:\c#\Calc3\Calc3\obj\Debug\MainWindow.g.cs
+E:\c#\Calc3\Calc3\obj\Debug\App.g.cs
+E:\c#\Calc3\Calc3\obj\Debug\Calc3_MarkupCompile.cache
+E:\c#\Calc3\Calc3\obj\Debug\Calc3_MarkupCompile.lref
+E:\c#\Calc3\Calc3\obj\Debug\MainWindow.baml
+E:\c#\Calc3\Calc3\obj\Debug\Calc3.g.resources
+E:\c#\Calc3\Calc3\obj\Debug\Calc3.Properties.Resources.resources
+E:\c#\Calc3\Calc3\obj\Debug\Calc3.csproj.GenerateResource.Cache
+E:\c#\Calc3\Calc3\obj\Debug\Calc3.csproj.CoreCompileInputs.cache
+E:\c#\Calc3\Calc3\obj\Debug\Calc3.exe
+E:\c#\Calc3\Calc3\obj\Debug\Calc3.pdb

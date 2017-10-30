@@ -1,0 +1,35 @@
+﻿<Window x:Class="Calc3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calc3"
+        mc:Ignorable="d"
+        Title="Pole boków" Height="350" Width="525" ResizeMode="NoResize">
+	<Grid Margin="0,0,-8,-14">
+		<RadioButton x:Name="prostokat" Content="Prostokąt" HorizontalAlignment="Left" Margin="92,48,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+		<Label Content="Wybierz figurę, której pole chcesz obliczyć:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="26" FontWeight="Bold"/>
+		<RadioButton x:Name="trapez" Content="Trapez" HorizontalAlignment="Left" Margin="360,48,0,0" VerticalAlignment="Top" Checked="trapez_Checked"/>
+		<RadioButton x:Name="kwadrat" Content="Kwadrat" HorizontalAlignment="Left" Margin="10,48,0,0" VerticalAlignment="Top" Checked="kwadrat_Checked"/>
+		<RadioButton x:Name="romb" Content="Romb" HorizontalAlignment="Left" Margin="178,48,0,0" VerticalAlignment="Top" Checked="romb_Checked"/>
+		<RadioButton x:Name="rownoleglobok" Content="Równoległobok" HorizontalAlignment="Left" Margin="242,48,0,0" VerticalAlignment="Top" Checked="rownoleglobok_Checked"/>
+		<RadioButton x:Name="trojkat" Content="Trójkąt" HorizontalAlignment="Left" Margin="427,48,0,0" VerticalAlignment="Top" Checked="trojkat_Checked"/>
+		<Label Content="Wpisz miary boków wybranej figury:" HorizontalAlignment="Left" Height="27" Margin="10,84,0,0" VerticalAlignment="Top" Width="370" FontWeight="Bold"/>
+		<Label Content="Podstawa" HorizontalAlignment="Left" Height="30" Margin="11,125,0,0" VerticalAlignment="Top" Width="62"/>
+		<Label Content="Wysokość" HorizontalAlignment="Left" Margin="11,185,0,0" VerticalAlignment="Top" Height="30"/>
+		<Label Content="Druga podstawa" HorizontalAlignment="Left" Height="30" Margin="10,155,0,0" VerticalAlignment="Top" Width="138"/>
+		<Label Content="Pierwsza przekatna" HorizontalAlignment="Left" Margin="242,125,0,0" VerticalAlignment="Top" Height="30"/>
+		<Label Content="Druga przekątna" HorizontalAlignment="Left" Margin="242,155,0,0" VerticalAlignment="Top" Height="30"/>
+		<TextBox x:Name="a" HorizontalAlignment="Left" Height="30" Margin="140,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" IsEnabled="False" Text="0"/>
+		<TextBox x:Name="c" HorizontalAlignment="Left" Height="30" Margin="140,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" IsEnabled="False" Text="0"/>
+		<TextBox x:Name="b" HorizontalAlignment="Left" Height="30" Margin="140,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" IsEnabled="False" Text="0"/>
+		<TextBox x:Name="d" HorizontalAlignment="Left" Height="30" Margin="400,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" IsEnabled="False" Text="0"/>
+		<TextBox x:Name="xD" HorizontalAlignment="Left" Height="30" Margin="400,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" IsEnabled="False" Text="0"/>
+		<Label Content="Pole powierzchni tej figury wynosi " HorizontalAlignment="Left" Height="31" Margin="11,234,0,0" VerticalAlignment="Top" Width="209" FontWeight="Bold"/>
+		<Label x:Name="Pole" Content="" HorizontalAlignment="Left" Height="31" Margin="248,320,0,-32" VerticalAlignment="Top" Width="79"/>
+		<Button x:Name="bResult" Content="Oblicz" HorizontalAlignment="Left" Height="30" Margin="242,277,0,0" VerticalAlignment="Top" Width="109" Click="bResult_Click"/>
+		<Button x:Name="bDel" Content="Czyść" HorizontalAlignment="Left" Height="30" Margin="372,277,0,0" VerticalAlignment="Top" Width="109"/>
+		<Label x:Name="Wynik" Content="" HorizontalAlignment="Left" Height="31" Margin="210,234,0,0" VerticalAlignment="Top" Width="298" FontWeight="Bold"/>
+
+	</Grid>
+</Window>
